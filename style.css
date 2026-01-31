@@ -1,0 +1,50 @@
+
+body{
+  font-family: sans-serif;
+}
+
+/*bar contianer */
+
+.contianer{ /*bar contianer */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    word-spacing: 10px;
+    font-size: 14px;
+}
+
+/*that dot */
+.dot{ 
+  vertical-align: middle;
+}
+
+/* header */
+header{
+    padding-right: 2pc;
+    padding-top: 10px;
+}
+
+/* logo */
+.google-logo{
+    margin-top: 85px;
+}
+
+/* search bar */
+input{
+    
+    vertical-align: middle;
+    height: 3pc;
+    width: 45pc;
+    border: 10px solid white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 4px rgb(54, 54, 54);
+    outline: none;
+    margin-top: 50px;
+}
+
+/* a tags */
+a{
+   text-decoration: none ;
+   color: rgb(66, 66, 66);
+   font-family: sans-serif;
+}
